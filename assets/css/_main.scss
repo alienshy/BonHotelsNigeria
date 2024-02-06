@@ -1,0 +1,110 @@
+main {
+  width: 100%;
+  .maincon {
+    width: 100%;
+    padding: 40px 32px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    h2 {
+      width: 100%;
+      text-align: center;
+      font-size: 30px;
+      color: rgb(149, 117, 84);
+    }
+    h3{
+        width: 100%;
+      text-align: center;
+      font-size: 30px;
+      color: rgb(149, 117, 84);
+    }
+    p{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        button{
+        background-color: rgb(223, 170, 91);
+        color: white;
+        border: none;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        z-index: 100;
+        border-radius: 10px;
+        text-align: center;
+    }
+    
+    }
+    div {
+      width: 48%;
+      border-radius: 20px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      background-size: cover;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 20px;
+      padding: 20px;
+      h3 {
+        color: #ffffff;
+        font-size: 25px;
+      }
+      button {
+        background-color: rgb(223, 170, 91);
+        color: white;
+        border: none;
+        height: 50px;
+        width: 150px;
+        font-size: 16px;
+        z-index: 100;
+        border-radius: 10px;
+      }
+    }
+    .mainimg1 {
+      background: linear-gradient(
+          rgba(189, 191, 166, 0.4),
+          rgba(189, 191, 166, 0.4)
+        ),
+        url("/assets/img/8f3db0bb571577f0953ee8ae3ddb9dcb.jpeg");
+      background-size: cover;
+    }
+    .mainimg2 {
+      background: linear-gradient(
+          rgba(189, 191, 166, 0.4),
+          rgba(189, 191, 166, 0.4)
+        ),
+        url("/assets/img/6c55604be48fa3994d2dffc68f9f25cb.jpeg");
+      background-size: cover;
+    }
+    .mainimg3 {
+      background: linear-gradient(
+          rgba(189, 191, 166, 0.4),
+          rgba(189, 191, 166, 0.4)
+        ),
+        url("/assets/img/1c009e70af1226bf469177c2fa9fe4aa.jpeg");
+      background-size: cover;
+    }
+    .mainimg4 {
+      background: linear-gradient(
+          rgba(189, 191, 166, 0.4),
+          rgba(189, 191, 166, 0.4)
+        ),
+        url("/assets/img/9ae3febf610e3570cc673a6e88cc81d1.jpeg");
+      background-size: cover;
+    }
+  }
+}
+@media screen and (max-width:822px) {
+  main {
+    .maincon {
+      padding: 40px 12px;
+      div {
+        flex: 1 1 calc(100% - 30px);
+        max-width: 100%;
+      }
+    }
+  }
+}
